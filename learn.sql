@@ -1,0 +1,9 @@
+CREATE TABLE `students` (
+    `id` INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `name` VARCHAR(100) NOT NULL,
+    `email` VARCHAR(100) NOT NULL,
+    `password` VARCHAR(100) NOT NULL,
+    `gender` CHAR(6) NOT NULL,
+    `dob` DATE NOT NULL,
+    `age` TINYINT UNSIGNED
+    );
